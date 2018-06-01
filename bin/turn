@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby
 require_relative '../lib/turn'
 
@@ -5,4 +6,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
+=======
+#!/usr/bin/env ruby
+
+require_relative 'lib/turn.rb'
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+>>>>>>> 3632abf808eb0bb0816056dfa1b41bd6732a9d98
 turn(board)
